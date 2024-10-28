@@ -7,10 +7,20 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      current: "currentColor",
+    },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        transparent: "transparent",
+        current: "currentColor",
+        primary: "#B9FF66",
+        dark: "#191A23",
+        silver: "#F3F3F3",
+        black: "#000000",
+      },
+      boxShadow: {
+        "solid-lg": "0px 5px 0px rgba(0, 0, 0, 1)",
       },
     },
   },
